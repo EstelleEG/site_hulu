@@ -1,0 +1,139 @@
+/*general*/
+*{
+    margin:0;
+    color: beige;
+}
+/*fin general*/
+
+/*header*/
+header{
+    background-color: #A63740;
+ 
+}
+
+#tete{
+    display: flex;
+    padding:15px;
+    
+    
+}
+.title{
+    flex:1;
+    text-align: center;
+    font-size:10px;
+  
+}
+
+#crossimg{
+    width: 30px;
+	height: 30px;
+    
+
+} 
+
+/*fin header*/
+
+/*main*/
+
+main{
+    /*background-color:#ff0008;*/
+    background: red;
+    padding:50px;
+    padding-top: 15px;
+    display:flex;
+    
+
+    background: url('imgs/handmaids_main-1280x720-1.jpg'),linear-gradient(90deg,red, black, rgba(0, 0, 0, 0.3));;
+    background-repeat: no-repeat;
+    background-position: right;
+    height:-30px;
+    
+}
+
+#presentation{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.genre>ul li::after{
+
+        content:"&#8226;";
+    
+}
+
+#coverimg{
+ 
+}
+
+.title_2{
+    font-weight:lighter;
+    padding:30px;
+
+}
+
+ul li{   /*toutes les li de ul*/
+
+    display: inline;  /*pour aligner en ligne*/
+    padding: 10px;
+}
+
+.description{
+
+    padding:15px;
+}
+
+#play{
+    width:60px;
+    height:60px;
+}
+
+#add{
+
+    width:20px;
+    height:20px;
+}
+
+.bouton{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*fin main*/
+
+
+/*Footer*/
+
+footer{
+    background-color: #1D2126;
+}
+
+
+.description_bas>ul li{
+    display:inline;
+    padding:10px;
+}
+
+
+.description_bas>ul li:hover{
+    padding-bottom:20px;
+    border-bottom:1px solid white;
+    line-height: 8px;
+    border-width: 0 0 5px;;
+
+}
+
+
+
+.slider {
+
+    display: flex;
+    padding:60px;
+}
+
+
+/*fin footer*/
+
